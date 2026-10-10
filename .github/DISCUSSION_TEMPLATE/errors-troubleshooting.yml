@@ -1,0 +1,96 @@
+
+title: "[Error Description]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for posting your question!
+
+        Please search previous Discussions and the
+        course FAQ before submitting.
+
+        Do not share passwords, access tokens,
+        sensitive research data, or private account details.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Question or problem
+      description: What are you trying to do, and what happened?
+      placeholder: Describe your calculation or problem.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: software
+    attributes:
+      label: Related software
+      description: Select all that apply.
+      multiple: true
+      options:
+        - Quantum ESPRESSO
+        - Hyak Klone
+        - Slurm
+        - Other / Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Software version and executable
+      placeholder: "e.g., QE 7.x, pw.x (if known)"
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or unexpected output
+      description: |
+        Paste the exact error message or relevant log output.
+        The submitted text will be formatted as a code block.
+        Include the first relevant error, if possible.
+        Remove usernames, sensitive paths, credentials,
+        and other private information.
+      placeholder: |
+        Paste the error message here...
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots or additional context
+      description: |
+        Attach screenshots or provide additional details here.
+        Remove sensitive information before uploading.
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you tried?
+      description: Describe what you have already checked.
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Related documentation or discussions
+      description: Paste any useful URLs.
+
+  - type: textarea
+    id: help
+    attributes:
+      label: What would you like to understand?
+      description: State the specific help you need.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before posting
+      options:
+        - label: Bot and I searched existing FAQs and Discussions.
+          required: true
+        - label: I removed credentials and sensitive information.
+          required: true
