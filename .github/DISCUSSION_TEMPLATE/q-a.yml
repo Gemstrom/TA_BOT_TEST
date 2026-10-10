@@ -1,5 +1,6 @@
 
 title: "[Error Description]"
+labels: "Questions and Answers"
 body:
   - type: markdown
     attributes:
