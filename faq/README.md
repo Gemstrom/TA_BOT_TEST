@@ -6,15 +6,9 @@ Welcome to the course FAQ.
 Before posting a new question, check the
 following resources.
 
-## Quantum ESPRESSO
+## [Quantum ESPRESSO](qe.md)
 
-- [Input settings and keywords](qe-input.md)
-- [SCF and convergence](qe-convergence.md)
-- [Common QE errors](common-errors.md)
-
-## Hyak Klone and Slurm
-
-- [Klone and Slurm questions](klone-slurm.md)
+## [Hyak Klone and/or slurm](hpc.md)
 
 ## Still need help?
 
