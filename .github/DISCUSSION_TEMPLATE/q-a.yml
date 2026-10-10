@@ -9,7 +9,7 @@ body:
 
         Please search previous Discussions and the course FAQ before submitting.
 
-        Do not share **passwords**, **access tokens**, **sensitive research data**, or **private account details**.
+        DO NOT share **passwords**, **access tokens**, **sensitive research data**, or **private account details**.
 
   - type: textarea
     id: problem
